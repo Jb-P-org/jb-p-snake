@@ -136,7 +136,7 @@ const moveSnake = () => {
     clearInterval(moveSnakeInterval);
     if (
       !alert(
-        `You have replaced ${totalFoodEaten} legacy connections after ${totalDistanceTravelled} time units.`
+        `You have helped ${totalFoodEaten} clients after ${totalDistanceTravelled} time units.`
       )
     )
       window.location.reload();
